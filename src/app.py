@@ -18,6 +18,10 @@ def main():
     def drugaStranica():
         return render_template(fr"drugaStranica.html", title=conf.website.TITLE)
 
+    @app.route("/trecaStranica.html")
+    def trecaStranica():
+        return render_template(fr"trecaStranica.html", title=conf.website.TITLE)
+
     app.run(
         host=conf.server.HOST,
         port=7373,
