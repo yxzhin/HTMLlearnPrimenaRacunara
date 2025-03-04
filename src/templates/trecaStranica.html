@@ -7,10 +7,24 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>{{title}}</title>
-        <link rel="icon" href="{{ url_for('static', filename='images/favicon.ico') }}" type="image/x-icon">
-        <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}" type="image/x-icon" />
+        <link rel="icon" href="static/images/favicon.ico?v=2" type="image/x-icon">
+        <link rel="shortcut icon" href="static/images/favicon.ico?v=2" type="image/x-icon" />
 
         <style>
+
+            #logo {
+
+                width: 64px;
+                height: 64px;
+
+            }
+
+            #scrn {
+
+                width: 128px;
+                height: 128px;
+
+            }
 
             table {
 
@@ -104,30 +118,30 @@
 
                     <tr id="red1">
                         <td><a href="https://smart.edu.rs">smart.edu.rs</a></td>
-                        <td><img src="static/images/smartedurs.png"></td>
+                        <td><img id="logo" src="static/images/smartedurs.png"></td>
                         <td>Gimnazija Smart u Novom Sadu je vaspitno-obrazovna ustanova za opšte srednje obrazovanje, smerova: Smer za učenike sa posebnim sposobnostima za računarstvo i informatiku; Opšti tip gimnazije.</td>
-                        <td><img src="static/images/scrn157.png"></td>
+                        <td><img id="scrn" src="static/images/scrn157.png"></td>
                     </tr>
 
                     <tr id="red2">
                         <td><a href="https://github.com">github.com</a></td>
-                        <td><img src="static/images/githubcom.png"></td>
+                        <td><img id="logo" src="static/images/githubcom.png"></td>
                         <td>GitHub is a proprietary developer platform that allows developers to create, store, manage, and share their code.</td>
-                        <td><img src="static/images/scrn158.png"></td>
+                        <td><img id="scrn" src="static/images/scrn158.png"></td>
                     </tr>
 
                     <tr id="red3">
                         <td><a href="https://t.me">t.me</a></td>
-                        <td><img src="static/images/tme.png"></td>
+                        <td><img id="logo" src="static/images/tme.png"></td>
                         <td>Telegram Messenger, commonly known as Telegram, is a cloud-based, cross-platform, social media and instant messaging (IM) service.</td>
-                        <td><img src="static/images/scrn159.png"></td>
+                        <td><img id="scrn" src="static/images/scrn159.png"></td>
                     </tr>
 
                     <tr id="red4">
                         <td><a href="https://google.com">google.com</a></td>
-                        <td><img src="static/images/googlecom.png"></td>
+                        <td><img id="logo" src="static/images/googlecom.png"></td>
                         <td>Google LLC is an American multinational corporation and technology company focusing on online advertising, search engine technology, cloud computing, computer software, quantum computing, e-commerce, consumer electronics, and artificial intelligence (AI).</td>
-                        <td><img src="static/images/scrn160.png"></td>
+                        <td><img id="scrn" src="static/images/scrn160.png"></td>
                     </tr>
 
                 </tbody>
